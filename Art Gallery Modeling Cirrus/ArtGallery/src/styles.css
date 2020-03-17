@@ -1,0 +1,88 @@
+/* Custom CSS for Art Gallery Modelling Problem
+Created by - Akash Khiste */
+body {
+    overflow-x: hidden;
+    text-align: center;
+  }
+  h1 {
+    color: black;    
+  }
+  h3,h6 {
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+    color: black;
+  }
+  h5 {
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+  }
+  p {
+    color: red;
+  }
+  /* Navigation Bar CSS */
+.navbar {
+    background-color:#FFFFFF;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+/* Container - image.component.html */
+.container {
+  padding-bottom: 10px;
+}
+
+.artpices{
+  padding-top: 50px;
+}
+
+/* card css to disply image */
+.imagecard {
+  padding: 10px 10px 10px 10px;
+
+}
+
+ img{ max-width:100%;}
+
+ /* elements alightment - inline elements */
+ .block {
+    height: 500px;
+    display: inline-block; 
+  }
+
+  .imgcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid 
+    rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.btn-outline-dark{
+    min-width: 100px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+input::placeholder{
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+}
+
+/* footer */
+  .page-footer{
+    border-top: 1px solid rgba(204, 201, 201, 0.856);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(204, 201, 201, 0.856);
+    color: black;
+    text-align: left;
+
+  }

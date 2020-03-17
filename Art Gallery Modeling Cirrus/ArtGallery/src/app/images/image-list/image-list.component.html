@@ -1,0 +1,23 @@
+
+
+<div class="artpices col-md-12">
+    <div class="container-fluid ">
+        <div class="row">
+            <!-- using ngIf module to check is array is empty -->
+            <div *ngIf="imageList">
+                <!-- parsing the data using ngFor module -->
+                <div  *ngFor="let i of rowIndexArray" class="block col-md-6 .col-md-4 .col-sm-12">
+                 <div class="col-md-12 imagecard">
+                    <div class="card mb-4" style="font-family:Comic Sans MS, cursive, sans-serif ">
+                        <img class="card-img-top" [src]="imageList[i].imageUrl" style="height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Artist - {{imageList[i].artist}}</h5>
+                            <h5 class="card-title">Buyer - {{imageList[i].buyer}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+  </div>
+</div>
